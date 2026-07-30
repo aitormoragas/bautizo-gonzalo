@@ -365,3 +365,14 @@ blockquote footer{
 
     opacity:1;
 }
+
+.gallery video{
+    outline: 3px solid rgba(188,174,135,.25);
+    outline-offset: 4px;
+    transition:transform .4s ease;
+}
+
+.gallery video.playing{
+
+    transform:scale(1.015);
+}
